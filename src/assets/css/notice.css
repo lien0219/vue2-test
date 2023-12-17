@@ -1,0 +1,54 @@
+.notice {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.event {
+    height: 135px;
+    margin-top: 15px;
+    background-color: #e8e7e7;
+    border-radius: 15px;
+}
+
+.event .content {
+    float: left;
+    padding: 20px 60px 20px 60px;
+    width: 600px;
+    height: 60px;
+}
+
+
+.event .content .title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.event .content .title i {
+    cursor: pointer
+}
+
+.event .content .paragraph {
+    width: 600px;
+    font-size: 16px;
+    color: #696363;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.event .right {
+    float: right;
+    width: 180px;
+    padding: 40px;
+}
+
+.event .right .el-button {
+    padding: 15px 0px 25px 120px;
+    border: 0;
+    background-color: #e8e7e7;
+}
+
+.event .right .date {
+    font-size:14px;
+    color: #827f7f;
+}
