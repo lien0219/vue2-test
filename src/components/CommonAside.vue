@@ -94,6 +94,12 @@ export default {
           label: "测试$attrs",
           icon: "document",
         },
+        {
+          path: "/eltree",
+          name: "Eltree",
+          label: "el-tree树形可编辑组件",
+          icon: "document",
+        },
       ],
     };
   },

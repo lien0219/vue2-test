@@ -72,6 +72,11 @@ const routes = [
         name: "Attrs",
         component: () => import("../views/$attrs/index.vue"),
       },
+      {
+        path: "/eltree",
+        name: "Eltree",
+        component: () => import("../views/eltree/index.vue"),
+      },
     ],
   },
 ];
