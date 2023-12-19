@@ -23,7 +23,21 @@ export let data = [
         id: 4,
         name: "测试组",
         level: 2,
-        child: [],
+        child: [
+          {
+            id: 5,
+            name: "李四",
+            level: 3,
+            child: [
+              {
+                id: 6,
+                name: "godo",
+                level: 3,
+                child: [],
+              },
+            ],
+          },
+        ],
       },
     ],
   },
