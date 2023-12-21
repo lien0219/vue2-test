@@ -100,6 +100,12 @@ export default {
           label: "el-tree树形可编辑组件",
           icon: "document",
         },
+        {
+          path: "/lottery",
+          name: "Lottery",
+          label: "九宫格抽奖简易版",
+          icon: "trophy",
+        },
       ],
     };
   },

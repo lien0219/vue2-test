@@ -77,6 +77,11 @@ const routes = [
         name: "Eltree",
         component: () => import("../views/eltree/index.vue"),
       },
+      {
+        path: "/lottery",
+        name: "Lottery",
+        component: () => import("../views/choujiang/index.vue"),
+      },
     ],
   },
 ];
