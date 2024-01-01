@@ -82,6 +82,11 @@ const routes = [
         name: "Lottery",
         component: () => import("../views/choujiang/index.vue"),
       },
+      {
+        path: "/editor",
+        name: "Editor",
+        component: () => import("../views/editor/index.vue"),
+      },
     ],
   },
 ];

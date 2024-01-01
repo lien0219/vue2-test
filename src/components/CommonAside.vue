@@ -106,6 +106,12 @@ export default {
           label: "九宫格抽奖简易版",
           icon: "trophy",
         },
+        {
+          path: "/editor",
+          name: "Editor",
+          label: "可以编辑图片的富文本编辑器",
+          icon: "edit",
+        },
       ],
     };
   },
