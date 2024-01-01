@@ -112,6 +112,12 @@ export default {
           label: "可以编辑图片的富文本编辑器",
           icon: "edit",
         },
+        {
+          path: "/tab",
+          name: "Tab",
+          label: "表格",
+          icon: "edit",
+        },
       ],
     };
   },

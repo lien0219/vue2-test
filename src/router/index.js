@@ -87,6 +87,11 @@ const routes = [
         name: "Editor",
         component: () => import("../views/editor/index.vue"),
       },
+      {
+        path: "/tab",
+        name: "Tab",
+        component: () => import("../views/table/index.vue"),
+      },
     ],
   },
 ];
