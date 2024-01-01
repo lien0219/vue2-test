@@ -405,8 +405,8 @@ item.user.match(this.searchForm.user)检查item.user字符串是否与this.searc
 </script>
 <style scoped>
 .box-card {
-  width: 800px;
-  margin: 40px auto;
+  /* width: 800px;
+  margin: 40px auto; */
 }
 .el-dialog {
   width: 40% !important;

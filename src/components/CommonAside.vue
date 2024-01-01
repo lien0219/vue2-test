@@ -120,7 +120,7 @@ export default {
         },
         {
           path: "/drag",
-          name: "drag",
+          name: "Drag",
           label: "手写可拖拽移动的元素+滚轮缩放功能",
           icon: "edit",
         },
