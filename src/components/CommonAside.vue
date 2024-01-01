@@ -115,7 +115,13 @@ export default {
         {
           path: "/tab",
           name: "Tab",
-          label: "表格",
+          label: "增-删-改-查(模糊查询)和分页、本地存储成数据库",
+          icon: "edit",
+        },
+        {
+          path: "/drag",
+          name: "drag",
+          label: "手写可拖拽移动的元素+滚轮缩放功能",
           icon: "edit",
         },
       ],

@@ -92,6 +92,11 @@ const routes = [
         name: "Tab",
         component: () => import("../views/table/index.vue"),
       },
+      {
+        path: "/drag",
+        name: "Drag",
+        component: () => import("../views/drag/index.vue"),
+      },
     ],
   },
 ];
