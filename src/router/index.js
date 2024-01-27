@@ -97,6 +97,16 @@ const routes = [
         name: "Drag",
         component: () => import("../views/drag/index.vue"),
       },
+      {
+        path: "/video",
+        name: "Video",
+        component: () => import("../views/video/index.vue"),
+      },
+      {
+        path: "/swiper",
+        name: "Swiper",
+        component: () => import("../views/swiper/index.vue"),
+      },
     ],
   },
 ];

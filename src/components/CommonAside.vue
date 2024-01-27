@@ -124,6 +124,18 @@ export default {
           label: "手写可拖拽移动的元素+滚轮缩放功能",
           icon: "edit",
         },
+        {
+          path: "/video",
+          name: "Video",
+          label: "视频测试",
+          icon: "edit",
+        },
+        {
+          path: "/swiper",
+          name: "Swiper",
+          label: "swiper功能块",
+          icon: "edit",
+        },
       ],
     };
   },
