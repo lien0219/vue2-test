@@ -142,6 +142,12 @@ export default {
           label: "新闻滚动功能块",
           icon: "edit",
         },
+        {
+          path: "/three",
+          name: "Three",
+          label: "Three.js酷炫的城市展示可视化大屏",
+          icon: "edit",
+        },
       ],
     };
   },

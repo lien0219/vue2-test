@@ -14,6 +14,16 @@ const routes = [
     component: () => import("../views/Login.vue"),
   },
   {
+    path: "/menu",
+    name: "Menu",
+    component: () => import("../views/three/components/menu/index.vue"),
+  },
+  {
+    path: "/main",
+    name: "Main",
+    component: () => import("../views/three/components/main/index.vue"),
+  },
+  {
     path: "/frame",
     name: "Frame",
     component: () => import("../components/Frame.vue"),
@@ -111,6 +121,11 @@ const routes = [
         path: "/news",
         name: "News",
         component: () => import("../views/news/index.vue"),
+      },
+      {
+        path: "/three",
+        name: "Three",
+        component: () => import("../views/three/index.vue"),
       },
     ],
   },

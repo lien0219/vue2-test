@@ -8,9 +8,13 @@ import axios from "axios";
 import store from "./store";
 import "./mock/mock";
 
+// 补间动画
+import tween from "./utils/tween";
+
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
 Vue.prototype.$axios = axios;
+Vue.use(tween);
 
 router.beforeEach((to, from, next) => {
   if (to.path === "/login") return next();
