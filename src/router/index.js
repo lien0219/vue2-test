@@ -107,6 +107,11 @@ const routes = [
         name: "Swiper",
         component: () => import("../views/swiper/index.vue"),
       },
+      {
+        path: "/news",
+        name: "News",
+        component: () => import("../views/news/index.vue"),
+      },
     ],
   },
 ];

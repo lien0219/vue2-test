@@ -136,6 +136,12 @@ export default {
           label: "swiper功能块",
           icon: "edit",
         },
+        {
+          path: "/news",
+          name: "News",
+          label: "新闻滚动功能块",
+          icon: "edit",
+        },
       ],
     };
   },
