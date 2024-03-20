@@ -127,6 +127,11 @@ const routes = [
         name: "Three",
         component: () => import("../views/three/index.vue"),
       },
+      {
+        path: "/select",
+        name: "Select",
+        component: () => import("../views/select/index.vue"),
+      },
     ],
   },
 ];

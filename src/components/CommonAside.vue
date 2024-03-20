@@ -148,6 +148,12 @@ export default {
           label: "Three.js酷炫的城市展示可视化大屏",
           icon: "edit",
         },
+        {
+          path: "/select",
+          name: "Select",
+          label: "select测试",
+          icon: "edit",
+        },
       ],
     };
   },
