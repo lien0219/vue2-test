@@ -132,6 +132,11 @@ const routes = [
         name: "Select",
         component: () => import("../views/select/index.vue"),
       },
+      {
+        path: "/zdes",
+        name: "Zdes",
+        component: () => import("../views/zdes/index.vue"),
+      },
     ],
   },
 ];

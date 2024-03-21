@@ -154,6 +154,12 @@ export default {
           label: "select测试",
           icon: "edit",
         },
+        {
+          path: "/zdes",
+          name: "Zdes",
+          label: "zdes测试",
+          icon: "edit",
+        },
       ],
     };
   },
