@@ -160,6 +160,12 @@ export default {
           label: "zdes测试",
           icon: "edit",
         },
+        {
+          path: "/textToVoice",
+          name: "textToVoice",
+          label: "文字语音互转",
+          icon: "edit",
+        },
       ],
     };
   },

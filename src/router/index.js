@@ -137,6 +137,29 @@ const routes = [
         name: "Zdes",
         component: () => import("../views/zdes/index.vue"),
       },
+      {
+        path: "/textToVoice",
+        name: "textToVoice",
+        component: () => import("../views/textToVoice/index.vue"),
+      },
+      {
+        path: "/textToVoice/wordToAudio",
+        name: "WordToAudio",
+        component: () =>
+          import("../views/textToVoice/components/WordToAudio.vue"),
+      },
+      {
+        path: "/textToVoice/wordToAudioV2",
+        name: "WordToAudioV2",
+        component: () =>
+          import("../views/textToVoice/components/WordToAudioV2.vue"),
+      },
+      {
+        path: "/textToVoice/audioToWord",
+        name: "AudioToWord",
+        component: () =>
+          import("../views/textToVoice/components/AudioToWord.vue"),
+      },
     ],
   },
 ];
